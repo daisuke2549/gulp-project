@@ -1,7 +1,18 @@
 .title h1 {
   color: red;
   font-weight: bold;
-  font-size: 32px; }
+  font-size: 32px;
+}
 
 .title p {
-  color: blue; }
+  color: blue;
+}
+
+.text h2 {
+  text-align: center;
+}
+
+.text p {
+  color: green;
+  text-align: center;
+}
