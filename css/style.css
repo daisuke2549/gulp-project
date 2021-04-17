@@ -5,14 +5,3 @@
 
 .title p {
   color: blue; }
-
-
-
-/* 
-
-  gulp.task(“sass”,function(){　でタスクの登録
-    gulp.src(“sass/**/*.scss”)　
-    /* で呼び込むファイルを指定（今回はsassファイル以下のファイル） */ 
-    /* .pipe(sass({outputStyle: ‘expanded’}))　で呼び込んだファイルに行う処理を記述
-    pipe(行いたい処理)         でsrcで取得したファイルに処理を記述
-    pipe(gulp.dest(“./css”))　で出力先を指定（今回はcssファイル）  */

@@ -11,3 +11,14 @@ gulp.task("default", function(){
         .pipe(gulp.dest("css"))
     );
 });
+
+
+const cssmin = require('gulp-cssmin');
+const rename = require('gulp-rename');
+ 
+gulp.task('default2', function () {
+    gulp.src('src/**/*.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('dist'));
+});
