@@ -5,3 +5,15 @@ main p {
 main p span {
   font-size: 14px;
 }
+
+.test h1 {
+  text-align: center;
+}
+
+.test h3 {
+  font-size: 24px;
+}
+
+.test p {
+  text-align: center;
+}
