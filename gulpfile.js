@@ -5,7 +5,7 @@ let uglify = require('gulp-uglify');
 const sass = require('gulp-sass')(require('sass'));
 
 gulp.task('default', function() {
-	console.log('test_implementation');
+	console.log('gulp環境のテストです。');
 });
 
 gulp.task('mincss', function() {
